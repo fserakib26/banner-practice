@@ -11,7 +11,7 @@
     background-image: url("../assets/hero-bg.png");
     background-position: center;
     background-size: cover;
-    height: 700px;
+    height: 80vh;
     
     /* display: flex;
     justify-content: center;
@@ -22,16 +22,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 70%;
 }
 
 .banner_content{
     position: relative;
-    background-color: blueviolet;    
-    border: 2px solid red;
+    /* background-color: blueviolet;    */
+    /* border: 2px solid red; */
 }
 
 .banner_img_1{
-    max-width: 300px;
+    max-width: 350px;
     height: auto;    
 }
 
@@ -55,4 +56,33 @@ header>section>div>span {
     top: 16%;
     transform: translate(-50%, -50%);
 
+}
+
+@media screen and (max-width:400px){
+  .header_section{
+    background-size: 200% 100%;
+
+  }
+   .banner_img_1{
+    max-width: 180px;        
+ }  
+
+  .banner_img_2{
+    max-width: 35%;
+       
+ } 
+}
+@media screen and (min-width:401px) and (max-width:578px) {
+  .header_section{
+    background-size: 150% 100%;
+
+  }    
+  .banner_img_1{
+    max-width: 200px;        
+ }  
+
+  .banner_img_2{
+    max-width: 35%;
+       
+ } 
 }
