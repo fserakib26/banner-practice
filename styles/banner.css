@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header_section{
+    background-image: url("../assets/hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    
+}
