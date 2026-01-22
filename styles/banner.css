@@ -3,9 +3,56 @@
     padding: 0;
 }
 
+.container{    
+    margin: auto;
+}
+
 .header_section{
     background-image: url("../assets/hero-bg.png");
     background-position: center;
     background-size: cover;
+    height: 700px;
     
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_content{
+    position: relative;
+    background-color: blueviolet;    
+    border: 2px solid red;
+}
+
+.banner_img_1{
+    max-width: 300px;
+    height: auto;    
+}
+
+.banner_img_2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header>section>div>span {
+    color: #000;
+    background-color: chartreuse;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 900;
+    
+
+    position: absolute;
+    left: 87%;
+    top: 16%;
+    transform: translate(-50%, -50%);
+
 }
